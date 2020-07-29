@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Open+Sans:wght@400;700&display=swap');
 
 body {
   background-color: #F5EEE6;
   font-family:'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: normal;
   color: #E6A4B4;
   font-size: 16px;
   line-height: 30px;
@@ -11,9 +11,14 @@ body {
 
 h1, h2, h3 {
   color: #C86B85;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
 }
 
 a {
